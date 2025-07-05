@@ -1,0 +1,1 @@
+esptool.py --chip esp32s3 --baud 921600 write_flash 0x0 merged-binary.bin
