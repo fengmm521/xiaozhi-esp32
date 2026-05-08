@@ -1,0 +1,18 @@
+# 小智推送服务器依赖
+
+# WebSocket 服务端
+websockets>=14.0
+
+# HTTP 服务端
+aiohttp>=3.9.0
+
+# Opus 音频编码
+opuslib>=1.1.0
+
+# 音频处理
+pydub>=0.25.0
+
+# 注意：pydub 需要 ffmpeg
+# Windows: 下载 ffmpeg 并添加到 PATH
+# Linux: apt install ffmpeg
+# Mac: brew install ffmpeg
